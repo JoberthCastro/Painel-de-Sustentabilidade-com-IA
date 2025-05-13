@@ -13,7 +13,7 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-GEMINI_API_KEY = "AIzaSyBB-IsXJ3eRHGXUqUk-pVOR1oNwsIFiqnE"
+GEMINI_API_KEY = "Ponha sua API KEY AQUI!"
 GEMINI_URL = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key={GEMINI_API_KEY}"
 
 def build_prompt(pergunta, company, data):
